@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    background-color: #CFD2CF;
+}
+
+/* Navbar */
+
+nav {
+    height: 7vh;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+
+}
+
+
+.nav-left ul li {
+    margin-right: 50px;
+    text-decoration: none;  
+    font-size: bold;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;  
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-left ul li a:hover {
+    background-color: grey;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 20px;
+}
+
+.nav-right a {
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 25px;
+    border-radius: 20px;
+    text-decoration: none;       
+}
+
+.nav-right a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+/* FORM PROJECT */
+form{
+    width: 450px;
+    margin: 50px auto;
+}
+
+div label, #teknologi {
+    font-weight: bold;
+}
+
+.name, .date, .deskripsi, .teknologi, .image {
+    margin-top: 30px;
+}
+
+.name input, textarea, .date input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.image input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-top {
+    display: flex;
+    margin: 10px 0;
+}
+
+.checkbox-top label {
+    margin-right: 35px;
+}
+
+.checkbox-buttom {
+    display: flex;
+}
+
+.checkbox-buttom label{
+    margin-right: 32px;
+}
+
+.btn-submit {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 18px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    padding: 8px 18px;
+    cursor: pointer;
+}
+
+/* Container */
+.container {
+    background-color: whitesmoke;
+    width: 1300px;
+    padding: 30px 50px;
+}
+
+/* Card */
+.all-card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: grey;
+    width: 350px;
+    padding:10px;
+    border-radius: 8px;
+    margin: 20px;
+    
+}
+
+.card:hover {
+    width: 400px;
+}
+
+.card-image img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card a {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.app {
+    font-size: 30px;
+}
+
+/* .btn-card {
+    margin: 20px;
+} */
+
+.btn-card button {
+    margin: 10px;
+}

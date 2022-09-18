@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/addProject.css">
+    <title>Add Project</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-left">
+            <ul>
+                <li>
+                    <img src="assets/logo-dumbways.png" alt="" style="width: 35px;">
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="addProject.html">Project</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    
+    
+    <!-- Form ADD MY PROJECT -->
+
+    <h2>ADD MY PROJECT</h2>
+
+    <form onsubmit="addProject(event)">
+        <div class="name">
+            <label for="projectName">Project Name</label>
+            <input type="text" id="projectName">
+        </div>
+        <div class="date">
+            <div>
+                <label for="startDate">Start Date</label>
+                <input type="date" id="startDate">
+            </div>
+            <div>
+                <label for="endDate">End Date</label>
+                <input type="date" id="endDate">
+            </div>
+        </div>
+        <div class="deskripsi">
+            <label for="description">Description</label>
+            <textarea name="" id="description" cols="10" rows="5"></textarea>
+        </div>
+
+        <div class="teknologi">
+            <label>Technologies</label>
+
+            <div class="checkbox-top">
+                <div>
+                    <input type="checkbox" id="nodeJs" name="nodeJs" value="node-js">
+                    <label for="nodeJs"> Node Js</label><br>
+                </div>
+                <div>
+                    <input type="checkbox" id="python" name="pyton" value="python">
+                    <label for="pyton">Pyton</label><br>
+                </div>
+                
+            </div>
+            <div class="checkbox-buttom">
+                <div>
+                    <input type="checkbox" id="reactJs" name="reactJs" value="react">
+                    <label for="reactJs">React Js</label><br>
+                </div>
+                <div>
+                    <input type="checkbox" id="golang" name="golang" value="golang">
+                    <label for="golang">Golang</label><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <label for="input-img">Upload image</label>
+            <input type="file" id="input-img" accept="image/*">
+        </div>
+        
+        <!-- <div class="formT">
+            <label>Upload Image</label>
+            <div class="formT-input-img">
+                <label for="image">
+                    <p>Choose</p>
+                    <img src="assets/clip.png" alt="">
+                    <input type="file" id="image" hidden>
+                </label>
+
+            </div>
+        </div> -->
+        
+        <div class="btn-submit">
+            <button>Submit</button>
+        </div>
+        
+    </form>
+
+
+
+       <!-- Project -->
+
+       
+       <div class="container">
+            <h2>MY PROJECT</h1>
+           <div class="all-card" id="contents">
+               <div  class="card">
+                    <div class="card-image">
+                        <img src="assets/gambar1.jpg" alt="">
+                    </div>
+                    <div class="title-content">
+                        <a href="detailProject.html">Mobile App-2021</a>
+                        <p>durasi: 3 bulan</p>
+                    </div>
+                    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, iure.</h4>
+                    <div class="app">
+                        <i class="fa-brands fa-node-js"></i>
+                        <i class="fa-brands fa-react"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-golang"></i>
+                    </div>
+    
+                    <div class="btn-card">
+                        <button type="button" onclick="">edit</button>
+                        <button type="button" onclick="">delete</button>
+                    </div>
+                    
+                </div>
+            </div>
+        
+        </div>
+    
+
+    <script src="js/addProject.js"></script>    
+
+</body>
+</html>
