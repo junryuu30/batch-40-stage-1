@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-color: #a8a8a7;
+}
+
+/* Navbar */
+
+nav {
+    height: 7vh;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+
+}
+
+
+.nav-left ul li {
+    margin-right: 50px;
+    text-decoration: none;  
+    font-size: bold;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;  
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-left ul li a:hover {
+    background-color: grey;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 20px;
+}
+
+.nav-right a {
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 25px;
+    border-radius: 20px;
+    text-decoration: none;       
+}
+
+.nav-right a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* Form GET IN TOUCH */
+
+h2 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+form {
+    background-color: #a8a8a7;
+    width: 350px;
+    margin: 25px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+    border: none;
+    box-shadow: 0px 0px 18px rgb(194, 192, 192);
+    
+}
+
+#subject {
+    width: 100%;
+    padding: 10px 30px 10px 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.btn-submit{
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
